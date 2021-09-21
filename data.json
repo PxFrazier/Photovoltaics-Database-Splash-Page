@@ -1,0 +1,18 @@
+{
+	"people": [
+		{
+			"name": "Paul",
+			"age": 30
+		},
+		{
+			"name": "Jacklyn",
+			"age": 29
+		}
+	],
+
+	"character":{
+		"name": "Death",
+		"status": "Dead",
+		"friends": null
+	}
+}
