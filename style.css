@@ -1,0 +1,95 @@
+body
+{
+	margin: 0em;
+}
+
+main
+{
+	background-color: #333;
+	color: white;
+}
+
+hgroup
+{
+	text-align: center;
+}
+
+h2
+{
+	font-size: 1em;
+}
+form
+{
+	text-align: center;
+}
+
+.textBlock
+{
+	text-align: center;
+	margin-top: 5%;
+}
+
+figure
+{
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+	cursor: pointer;
+}
+
+figure > div > img
+{
+	height: 19em;
+	width: 30em;
+	min-height: 12em;
+	min-width: 19em;
+	border-radius: 0.5em;
+}
+
+figure > div
+{
+	border-radius: 0.5em;
+	opacity: 80%;
+}
+
+figure > div:hover
+{
+	opacity: 100%;
+}
+
+footer
+{
+	text-align: right;
+}
+
+@media only screen and (min-width: 830px)
+{
+	figure
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 0.5em;
+	}
+	
+	figure > div
+	{
+		background-color: rgb(100, 100, 180);
+		border-radius: 0.5em;
+		opacity: 80%;
+	}
+	
+	figure > div > img
+	{
+		min-height: 12em;
+		min-width: 19em;
+		border-radius: 0.5em;
+	}
+}
+
+@media only screen and (max-width: 660px)
+{
+	figure
+	{
+		display: none;
+	}
+}
